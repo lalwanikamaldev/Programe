@@ -8,8 +8,23 @@ namespace FirstConsoleApplication
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Input YOur First Number"); // print
+
+            
+           var myValue = string.Format("My Name Is {0} and i am a {1} {2}", "Kamal", "developer", "in software company");
+
+            Console.WriteLine("My Name Is {0} and i am a {1} {2}", "kamal", "developer");
+
            
-            int a =  Int32.Parse(Console.ReadLine()); // readline , int() => int32.parse();
+
+            var a = 5;
+            var b = 7;
+            var c = a + b;
+
+            Console.WriteLine("sum of {0} and  {1}  is {2}", a, b,c);
+
+            Console.WriteLine("sume of a and b is " + c +" "+ b + "sjhafhka" + b + "djahfkahfk "+ a );
+
+            //int a =  Int32.Parse(Console.ReadLine()); // readline , int() => int32.parse();
 
         //  1. prgrame 
             //   electicityBillGenerationPrograme();
